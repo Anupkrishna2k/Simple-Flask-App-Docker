@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: product-list-app
-          image: <your-dockerhub-username>/product-list-app:v1
+          image: anupkrishna2000/product-list-app:v1
           ports:
             - containerPort: 5070
           env:
